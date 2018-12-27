@@ -1,8 +1,8 @@
 # Unit tests
 CPUBINS := 
 #CPUBINS := $(shell cat cpu_binary_targets.txt)
-GPUBINS := 
-#GPUBINS := $(shell cat gpu_binary_targets.txt)
+#GPUBINS := prodkde2d_scan
+GPUBINS := $(shell cat gpu_binary_targets.txt)
 
 # additional include and library search paths
 IDIR := ../include
